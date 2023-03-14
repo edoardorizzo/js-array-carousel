@@ -8,3 +8,8 @@ img{
 .images img:not(.active){
     display: none;
 }
+
+button{
+    border: none;
+    background-color: transparent;
+}

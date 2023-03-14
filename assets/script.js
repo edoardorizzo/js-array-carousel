@@ -72,7 +72,7 @@ downEl.addEventListener('click', function(){
     activeImage-- //decrement the value of activeImage of 1 every time we click on the next button
 
     if(activeImage < 0) {
-        activeImage = images-length - 1;
+        activeImage = images.length - 1;
     }
 
     //select the next slide
