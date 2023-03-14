@@ -1,0 +1,10 @@
+.slider,
+.images,
+img{
+    width: 1000px;
+    height: 700px;
+}
+
+.images img:not(.active){
+    display: none;
+}
