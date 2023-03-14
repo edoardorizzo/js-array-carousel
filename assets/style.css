@@ -3,6 +3,7 @@
 img{
     width: 1000px;
     height: 700px;
+    object-fit: cover;
 }
 
 .images img:not(.active){
